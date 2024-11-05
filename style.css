@@ -185,6 +185,7 @@ body{
     font-family: "mont3" ;
     font-weight: 500;
     font-size: 70px;
+    width: 800px;
 }
 .subText{
     font-family: "mont2";
@@ -193,3 +194,29 @@ body{
     font-size: 45px;
     margin-top: 65px;
 }
+.container{
+    position: relative;
+    display: inline-block;
+   margin-left: 50px;
+    margin-top: 80px;
+}
+.img{
+    width: 530px;
+    right: 15px;
+    height: 550px;
+    margin-left: 15px; 
+    display: block; 
+}
+.gradient-overlay {
+    position: absolute;
+    bottom: -45px;
+    left: 18px;
+    right: -40px;
+    width: 100%;
+    height: 20%; 
+    background: linear-gradient(to top,#1A0436, #29083d,  transparent); /
+    pointer-events: none; 
+    backdrop-filter: blur(1px); /* Efeito de desfoque leve */
+    -webkit-backdrop-filter: blur(1px);
+    border-style: none;
+      }
