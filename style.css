@@ -42,7 +42,7 @@ overflow-x: hidden;
 }
 
 body {
-    background-image: url(./img/fundo1.png);
+    background-image: url(./img/fundoLiteratura.png);
     background-size: cover;
 }
 
@@ -161,38 +161,35 @@ font-size: 25px;
 body{
     background-color: #1A0436;
 }
-.bola{
-    position: absolute;
-    background: linear-gradient(#B41D6C, #6A3279);
-    height: 100px;
-    width: 100px;
-    border-radius: 360px;
-    filter: blur(40px);
-    left: -50px;
-    top: 150px;
-    opacity: 0.9;
-    z-index: 1;
+.banner{
+    margin: 50px;
+    background: linear-gradient(#FEB500, #B41D6C, #541654, #1A0436);
+    width: 1300px;
+    height: 600px;
+    border-radius: 50px;
+    color: #1A0436;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
 }
-.bola2{
-        position: absolute;
-        background: linear-gradient(#B41D6C, #6A3279);
-        height: 100px;
-        width: 100px;
-        border-radius: 360px;
-        filter: blur(40px);
-        right: 50px;
-        bottom: 150px;
-        opacity: 0.9;
-        z-index: 1;
+.textos{
+    display: flex;
+    flex-direction: column;
 }
-.blurred-shape {
-    width: 300px;
-    height: 400px;
-    background: radial-gradient(circle, #ff0066 30%, #800080 70%);
-    filter: blur(40px);
-    border-radius: 50%;
-    left: -60px;
-    bottom:550px ;
-    opacity: 0.9;
-    z-index: 1;
+.banner span{
+    font-family:"mont";
+    color: white;
+    font-weight: 400;
+}
+.text{
+    font-family: "mont3" ;
+    font-weight: 500;
+    font-size: 70px;
+}
+.subText{
+    font-family: "mont2";
+    color: white;
+    font-weight: 200;
+    font-size: 45px;
+    margin-top: 65px;
 }
