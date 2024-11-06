@@ -1,0 +1,113 @@
+* {
+    font-style: none;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "CreatoB";
+    src: url(font/CreatoDisplay-Bold.otf);
+}
+
+@font-face {
+    font-family: "CreatoL";
+    src: url(font/CreatoDisplay-Regular.otf);
+}
+*{
+    font-family: "CreatoB";
+}
+
+body{
+    background-image: url(img/fundo.png);
+    background-size: cover;
+}
+
+
+.logo img{
+    width: 200px;
+height: 75px;
+margin-left: 30px;
+}
+
+header{
+   display: flex;
+   flex-direction: column;
+  margin-top: 40px;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.perfil img{
+    margin-right: -15%;
+    margin-left: 80%;
+}
+
+.notificacao img{
+    margin-right: 40px;
+    margin-left: -100px;
+}
+
+.barra{
+    width: 700px;
+    height: 53.79px;
+    border-radius: 10px;
+    padding-left: 30px;
+    background-color: rgba(0, 0, 0, 0.085);
+}
+
+.lupa{
+    display: flex;
+    position: relative;
+    bottom: 37px;
+    left: 91%;
+
+}
+
+.menu{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+.menu a{
+    color: white;
+    margin: 55px;
+    font-size: 20px;
+    margin-top: 25px;
+    text-decoration: none;
+    font-weight: 605;
+    font-family: "CreatoL";
+    letter-spacing: 2px;
+    transition: ease-in-out 0.3s;
+    }
+a:hover {
+    text-decoration: none;
+    font-size: 25px;
+    }
+
+.borda{
+    height: 47px;
+    width: 150px;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+    display:flex;
+    align-items: center;
+}
+
+.borda a{
+   position: relative;
+  right: 25%;
+  top: 23%;
+}
+p{
+    color: white;
+}
