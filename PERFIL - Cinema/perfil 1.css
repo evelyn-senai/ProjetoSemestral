@@ -1,113 +1,173 @@
 * {
-    font-style: none;
     margin: 0;
     border: 0;
     padding: 0;
 }
 
 @font-face {
-    font-family: "CreatoB";
+    font-family: "bold";
     src: url(font/CreatoDisplay-Bold.otf);
 }
 
 @font-face {
-    font-family: "CreatoL";
-    src: url(font/CreatoDisplay-Regular.otf);
-}
-*{
-    font-family: "CreatoB";
+    font-family: "light";
+    src: url(font/CreatoDisplay-Light.otf);
 }
 
-body{
+@font-face {
+    font-family: "mendium";
+    src: url(font/CreatoDisplay-Medium.otf);
+}
+
+@font-face {
+    font-family: "regular";
+    src: url(font/CreatoDisplay-Regular.otf);
+}
+
+@font-face {
+    font-family: "swily";
+    src: url(font/SwilyBright-Italic.otf);
+}
+
+.header {
+background-image: url(img/Desfocado1.png);
+display: flex;
+flex-direction: column;
+width: cover;
+height: 1000px;
+}
+
+
+body {
+overflow: scroll;
+overflow-x: hidden;
+}
+
+body {
     background-image: url(img/fundo.png);
     background-size: cover;
 }
 
+.cima {
+height: 90px;
+padding-top:  20px;
+display: flex;
+align-items: center;
+justify-content:space-evenly;
+padding-right: 20px;
+margin-bottom: 20px;
+}
 
-.logo img{
-    width: 200px;
+.bolha {
+width: 90px;
 height: 75px;
-margin-left: 30px;
+margin-left: 50px;
 }
 
-header{
-   display: flex;
-   flex-direction: column;
-  margin-top: 40px;
+.conjuto {
+display: flex;
+flex-direction: row;
 }
 
-.cabecalho{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.perfil img{
-    margin-right: -15%;
-    margin-left: 80%;
-}
-
-.notificacao img{
-    margin-right: 40px;
-    margin-left: -100px;
-}
-
-.barra{
-    width: 700px;
-    height: 53.79px;
-    border-radius: 10px;
-    padding-left: 30px;
-    background-color: rgba(0, 0, 0, 0.085);
-}
-
-.lupa{
-    display: flex;
-    position: relative;
-    bottom: 37px;
-    left: 91%;
+.logo {
+font-family: "mont";
+color: white;
+width: 190px;
+height: 45px;
+text-align: center;
+display: flex ;
+font-size: 35px;
+font-weight: 400;
+align-items: center;
+justify-content: center;
+padding-top: 10px;
 
 }
 
-.menu{
-    margin-top: 30px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+#barraPesquisa {
+width: 700px;
+height: 53.79px;
+opacity: 0.5;
+background-color: rgba(0, 0, 0, 0.25);
+color:rgba(255, 255, 255, 0.5);
+margin: 90px;
+border-radius: 18px;
+padding-right: 20px;
+margin-left: 150px;
+background-size: cover;
+}
+
+#barraPesquisa::-webkit-input-placeholder{
+    color:rgb(255, 255, 255);
+    font-size:15px;
+}
+input {
+color: rgb(255, 255, 255);
+font-family: "light";
+font-size: 15px;
+padding-left: 20px;
+}
+
+.barra {
+display: flex;
+flex-direction: row;
+justify-content: center;
+border: none;
+}
+
+.perfil a {
+width: 51px;
+height: 52px;
+border-radius: 18px;
+background-image: url(img/IconPerfil.png);
+display: flex;
+align-items: center;
+justify-items: center;
+justify-content: center;
+margin-right: 30px;
+background-size: cover;
+color: rgba(0, 0, 0, 0.25);
 }
 
 
 
-.menu a{
-    color: white;
-    margin: 55px;
-    font-size: 20px;
-    margin-top: 25px;
-    text-decoration: none;
-    font-weight: 605;
-    font-family: "CreatoL";
-    letter-spacing: 2px;
-    transition: ease-in-out 0.3s;
-    }
+.notificacao a {
+width: 51px;
+height: 52px;
+background-image: url(img/IconNotificacao.png);
+border-radius: 18px;
+background-color: rgba(0, 0, 0, 0.25);
+display: flex;
+align-items: center;
+justify-items: center;
+justify-content: center;
+margin-left: -15px;
+}
+
+header .baixo {
+font-family: "regular";
+display: flex;
+flex-direction: row;
+display: flex;
+justify-content: center;
+}
+
+.baixo a{
+color: white;
+margin: 55px;
+font-size: 15px;
+margin-top: 25px;
+text-decoration: none;
+font-weight: 605;
+font-family: "regular";
+letter-spacing: 2px;
+transition: ease-in-out 0.3s;
+}
+
 a:hover {
-    text-decoration: none;
-    font-size: 25px;
-    }
-
-.borda{
-    height: 47px;
-    width: 150px;
-    border: 3px solid #ffffff;
-    border-radius: 10px;
-    display:flex;
-    align-items: center;
+font-size: 18px;
+width: 60px;
+height: 60px;
 }
 
-.borda a{
-   position: relative;
-  right: 25%;
-  top: 23%;
-}
-p{
-    color: white;
-}
+
