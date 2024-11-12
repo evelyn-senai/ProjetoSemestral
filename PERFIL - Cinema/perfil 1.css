@@ -144,12 +144,17 @@ justify-content: center;
 margin-left: -15px;
 }
 
+.baixo{
+    margin-left: 80px;
+}
+
 header .baixo {
 font-family: "regular";
 display: flex;
 flex-direction: row;
 display: flex;
 justify-content: center;
+
 }
 
 .baixo a{
@@ -170,4 +175,194 @@ width: 60px;
 height: 60px;
 }
 
+/* Informações do artista */
 
+.info{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.foto{
+   border-radius: 20px;
+   width: 34%; 
+   height: 77%;
+   position: absolute;
+   bottom: -85px;
+    left: 150px;
+    -webkit-box-shadow:0px 0px 159px 63px rgba(198,93,137,0.86);
+    -moz-box-shadow: 0px 0px 159px 63px rgba(198,93,137,0.86);
+    box-shadow: 0px 0px 159px 63px rgba(198,93,137,0.86);
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    bottom: 6%;
+    right: 10%;
+    color: white;
+}
+.nome{
+    font-family: "bold";
+    font-size: 80px;
+}
+
+.descricao{
+    font-family: "regular";
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.brasil{
+    position: absolute;
+    top: 18px ;
+    right:0px;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.insta:hover img{
+    transform: scale(1.1);  
+}
+
+.email:hover img{
+    transform: scale(1.1);
+}
+
+.email{
+    margin-left: 18px;
+}
+
+.hbo{
+    display: flex;
+  border-radius: 10px;  
+  background: linear-gradient( 84deg, #4F1686, #460DCB, #4F00FF, #4F1686);
+  height:50px;
+  width: 220px;
+    justify-content: space-between;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.hbo p{
+    font-family: "mendium";
+    margin: auto;
+    color: white;
+}
+
+.a{
+    text-decoration: none;
+}
+
+.a:hover .hbo{
+    transform: scale(1.1); 
+}
+
+.seta{
+   width: 13px;
+   height: 12px;
+   margin-right: 10px;
+}
+
+.trabalhos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+  /* footer */
+
+     footer {
+    background-color: #2A114B; 
+    width: 100%;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    margin-top: 150px;
+}
+
+.logo1 {
+    font-family: "mont";
+    color: white;
+    width: 190px;
+    height: 45px;
+    text-align: center;
+    display: flex ;
+    font-size: 25px;
+    font-weight: 400;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-top: 10px;
+   }
+
+   .bolha1 {
+    width: 60px;
+    height: 50px;
+    padding-bottom: 20px;
+}
+
+.ParteDeCimaRodape{
+    display: flex;
+    flex-direction: row;
+    padding-left: 90px;
+
+}
+
+.pag1 {
+color: #844D93;
+margin: 20px;
+font-size: 20px;
+text-decoration: none;
+font-weight: 605;
+font-family: "mont4";
+letter-spacing: 2px;
+transition: none;
+}
+
+.pag1:hover {
+    font-size: 20px;
+}
+
+.redes {
+padding-top: 40px;
+padding-left: 15px;
+padding-bottom: 25px;
+}
+
+.fim {
+    height: 10px;
+    width: 100%;
+    background-color: #1A0436;
+    padding-bottom: 15px;
+}
+
+.textosRodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.PoliticaDePrivacidade {
+    font-size: 10px;
+    padding-top: 5px;
+    width: 250px;
+    margin-right: -105px;
+    color: white;
+}
+.Copyright {
+    font-size: 10px;
+    padding-top: 5px;
+    width: 250px;
+    margin-left: 40px;
+    color: white;
+} 
