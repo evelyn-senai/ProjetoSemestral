@@ -4,6 +4,14 @@
     padding: 0;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Estilos para dispositivos entre 768px e 1024px de largura */
+    body {
+        background-color: lightblue;
+    }
+}
+
+
 @font-face {
     font-family: "bold";
     src: url(font/CreatoDisplay-Bold.otf);
@@ -194,6 +202,10 @@ height: 60px;
     -webkit-box-shadow:0px 0px 122px 51px rgba(198,93,137,1);
     -moz-box-shadow: 0px 0px 122px 51px rgba(198,93,137,1);
     box-shadow: 0px 0px 122px 51px rgba(198,93,137,1);
+    transition: ease-in-out 0.3s;
+}
+.foto:hover { 
+    transform: scale(1.03);   
 }
 
 .textos{
