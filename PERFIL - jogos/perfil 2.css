@@ -232,7 +232,7 @@ box-shadow: 0px 0px 113px 49px rgba(95,171,221,0.93);
 .pais{
     position: absolute;
     top: 8px;
-    right: 134px;
+    right: 109px;
 }
 
 .redes{
@@ -262,11 +262,11 @@ a .rede2{
     margin-left: 18px;
 }
 
-.steam{
+.imperial{
     transition: ease-in-out 0.5s;
 }
 
-.steam:hover{
+.imperial:hover{
     transform: scale(1.1); 
 }
 
@@ -284,7 +284,7 @@ a .rede2{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top: 70px;
 }
 
@@ -292,7 +292,7 @@ a .rede2{
 .jogo1{
     width: 280px;
     height: 280px;
-    margin-left: 300px;
+    margin-left: 100px;
     transition: ease-in-out 0.3s;
 }
 .jogo1:hover { 
@@ -302,7 +302,6 @@ a .rede2{
 .jogo2{
     width: 280px;
     height: 280px;
-    margin-right: 300px;
     transition: ease-in-out 0.3s;
 }
 .jogo2:hover { 
@@ -312,7 +311,7 @@ a .rede2{
 .jogo3{
     width: 280px;
     height: 280px;
-    margin-right: 300px;
+    margin-right: 100px;
     transition: ease-in-out 0.3s;
 }
 .jogo3:hover { 

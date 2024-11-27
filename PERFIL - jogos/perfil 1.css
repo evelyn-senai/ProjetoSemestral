@@ -262,11 +262,11 @@ a .rede2{
     margin-left: 18px;
 }
 
-.steam{
+.imperial{
     transition: ease-in-out 0.5s;
 }
 
-.steam:hover{
+.imperial:hover{
     transform: scale(1.1); 
 }
 
