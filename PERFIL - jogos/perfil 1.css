@@ -38,7 +38,7 @@
 }
 
 .header {
-background-image: url(img/desfocado12.png);
+background-image: url(img/desfocado1.png);
 display: flex;
 flex-direction: column;
 height: 1000px;
@@ -199,9 +199,9 @@ height: 60px;
    position: absolute;
    bottom: -85px;
     left: 200px;
-    -webkit-box-shadow:0px 0px 96px 60px rgba(122,157,157,0.9);
--moz-box-shadow: 0px 0px 96px 60px rgba(122,157,157,0.9);
-box-shadow: 0px 0px 96px 60px rgba(122,157,157,0.9);
+    -webkit-box-shadow:0px 0px 105px 45px rgba(172,126,47,0.9);
+-moz-box-shadow: 0px 0px 105px 45px rgba(172,126,47,0.9);
+box-shadow: 0px 0px 105px 45px rgba(172,126,47,0.9);
     transition: ease-in-out 0.3s;
 }
 .foto:hover { 
@@ -262,40 +262,12 @@ a .rede2{
     margin-left: 18px;
 }
 
-.hbo{
-    display: flex;
-  border-radius: 10px;  
-  background: linear-gradient(90deg, #FFFFFF, #80ABD1, #0057A2, #80ABD1, #FFFFFF);
-
-  height:50px;
-  width: 220px;
-    justify-content: space-between;
-    margin-top: 40px;
-    align-items: center;
-}
-
-.hbo p{
-    font-family: "mendium";
-    margin: auto;
-    color: black;
-}
-
-.a{
-    text-decoration: none;
-}
-
-.hbo{
+.steam{
     transition: ease-in-out 0.5s;
 }
 
-.hbo:hover{
+.steam:hover{
     transform: scale(1.1); 
-}
-
-.seta{
-   width: 13px;
-   height: 12px;
-   margin-right: 10px;
 }
 
 .trabalhos{
