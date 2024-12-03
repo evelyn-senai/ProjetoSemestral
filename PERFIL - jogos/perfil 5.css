@@ -280,7 +280,7 @@ a .rede2{
     margin-top: 70px;
 }
 
-.fotos{
+.jogos{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -289,23 +289,23 @@ a .rede2{
 }
 
 
-.foto1{
+.jogo1{
     width: 280px;
     height: 280px;
     margin-left: 300px;
     transition: ease-in-out 0.3s;
 }
-.foto1:hover { 
+.jogo1:hover { 
     transform: scale(1.1);   
 }
 
-.foto2{
+.jogo2{
     width: 280px;
     height: 280px;
     margin-right: 300px;
     transition: ease-in-out 0.3s;
 }
-.foto2:hover { 
+.jogo2:hover { 
     transform: scale(1.1); 
 }
 
